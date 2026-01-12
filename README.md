@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EduWeb Solutions
+
+A premium website development service specializing in education and skill-training businesses.
+
+## About
+
+This website showcases our services for building ultra-fast, mobile-first websites for tuition centers, coaching institutes, dance academies, and all skill-training businesses.
+
+## Features
+
+- **Premium Design**: Clean, modern design inspired by leading SaaS companies
+- **Mobile-First**: Fully responsive across all devices
+- **Fast Loading**: Optimized for performance
+- **Conversion Focused**: Built to turn visitors into leads
+- **Trust Building**: Professional design that builds credibility
+
+## Tech Stack
+
+- **Framework**: Next.js 16 with App Router
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Language**: TypeScript
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Build for Production
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+app/
+├── components/          # Reusable components
+│   ├── Header.tsx      # Navigation header
+│   └── Footer.tsx      # Site footer
+├── about/              # About page
+├── services/           # Services page
+├── industries/         # Industries page
+├── portfolio/          # Portfolio page
+├── pricing/            # Pricing page
+├── contact/            # Contact page
+├── layout.tsx          # Root layout
+├── page.tsx            # Home page
+└── globals.css         # Global styles
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Pages
 
-## Learn More
+- **Home**: Hero section, services overview, testimonials, CTA
+- **About**: Company mission, vision, and why we focus on education
+- **Services**: Detailed breakdown of all services offered
+- **Industries**: Industries we serve with specialized features
+- **Portfolio**: Archived (rename `app/portfolio-archive` to `app/portfolio` to restore)
+- **Pricing**: Transparent pricing with three plans
+- **Contact**: Contact form, information, and quick actions
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is ready for deployment on Vercel, Netlify, or any static hosting service.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
+For inquiries about website development services:
+- Email: info@eduwebsolutions.com
+- Phone: +91 9581621692
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ for education businesses worldwide.
