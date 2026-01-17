@@ -24,8 +24,8 @@ export default function Header() {
     textDecoration: "none",
   }}
 >
-  <span style={{ color: "#1F4FA3" }}>Site</span>
-  <span style={{ color: "#F28C28" }}>Craft</span>
+  <span style={{ color: "#111827" }}>Site</span>
+  <span style={{ color: "#2563EB" }}>Craft</span>
 </Link>
 
           </div>
